@@ -22,6 +22,10 @@ public class ChatServer{
 	}
     }
     
+   public void remove(int index){
+	clients.remove(index);
+    }
+    
     
     public static void main(String[] args){
 	ChatServer chat = new ChatServer();
